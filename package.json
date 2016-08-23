@@ -1,7 +1,7 @@
 {
-  "name": "sax",
-  "description": "An evented streaming XML parser in JavaScript",
-  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "name": "sax-with-fragments",
+  "description": "An evented streaming XML parser in JavaScript, with support for XML fragments.",
+  "author": "Faithlife Corporation",
   "version": "1.2.1",
   "main": "lib/sax.js",
   "license": "ISC",
@@ -9,7 +9,7 @@
     "test": "tap test/*.js --cov",
     "posttest": "standard -F test/*.js lib/*.js"
   },
-  "repository": "git://github.com/isaacs/sax-js.git",
+  "repository": "git://github.com/Faithlife/sax-js.git",
   "files": [
     "lib/sax.js",
     "LICENSE",
