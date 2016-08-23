@@ -1,9 +1,17 @@
-# sax js
+# sax js - with fragments
 
 A sax-style parser for XML and HTML.
 
 Designed with [node](http://nodejs.org/) in mind, but should work fine in
 the browser or other CommonJS implementations.
+
+## Note
+
+This is forked from [https://github.com/isaacs/sax-js](https://github.com/isaacs/sax-js).
+
+The `fragmentMode` option in the constructor enables functionality similar to [`XmlReaderSettings.ConformanceLevel`](https://msdn.microsoft.com/en-us/library/system.xml.xmlreadersettings.conformancelevel(v=vs.110).aspx) being set to `System.Xml.ConformanceLevel.Fragment` in C#.
+
+This allows multiple root elements to exist.
 
 ## What This Is
 
